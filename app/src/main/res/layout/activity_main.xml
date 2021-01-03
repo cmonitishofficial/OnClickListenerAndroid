@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:onClick="funSix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvFirst"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8058C1"
+            android:gravity="center"
+            android:text="@string/first"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/tvSecond"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#84CDC2"
+            android:gravity="center"
+            android:text="@string/second"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvThird"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFC107"
+            android:gravity="center"
+            android:text="@string/third"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/tvFourth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF5722"
+            android:gravity="center"
+            android:text="@string/fourth"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFifth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CDDC39"
+            android:gravity="center"
+            android:text="@string/fifth"
+            android:onClick="funFifth"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/tvSixth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#E91E63"
+            android:gravity="center"
+            android:text="@string/sixth"
+            android:onClick="funSix"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

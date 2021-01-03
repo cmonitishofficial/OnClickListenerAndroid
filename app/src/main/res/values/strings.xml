@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">On ClickListener</string>
+    <string name="fifth">Fifth</string>
+    <string name="sixth">Sixth</string>
+    <string name="fourth">Fourth</string>
+    <string name="third">Third</string>
+    <string name="second">Second</string>
+    <string name="first">First</string>
+</resources>
