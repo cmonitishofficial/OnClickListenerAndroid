@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void funFifth(View view) {
-//        tvFifth.setText("Clicked Fifth");
+        tvFifth.setText("Clicked Fifth");
     }
 
     public void funSix(View view) {
-//        tvSixth.setText("Clicked Sixth");
+        tvSixth.setText("Clicked Sixth");
     }
 }
